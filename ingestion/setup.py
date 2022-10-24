@@ -41,7 +41,7 @@ base_requirements = {
     "Jinja2>=2.11.3",
     "PyYAML",
     "jsonschema",
-    "sqllineage==1.3.6",
+    "sqllineage==1.3.7",
     "antlr4-python3-runtime==4.9.2",
     "boto3~=1.19.12",
     "botocore==1.22.12",
@@ -162,7 +162,7 @@ test = {
 build_options = {"includes": ["_cffi_backend"]}
 setup(
     name="openmetadata-ingestion",
-    version="0.12.2.0.dev1",
+    version="0.12.2.0.dev2",
     url="https://open-metadata.org/",
     author="OpenMetadata Committers",
     license="Apache License 2.0",
